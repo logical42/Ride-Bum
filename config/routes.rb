@@ -1,9 +1,13 @@
 RideBum::Application.routes.draw do
+<<<<<<< HEAD
   resources :events do
     resources :invitations
   end
 
   get "dashboard/index"
+=======
+  devise_for :users
+>>>>>>> gems added for user auth and bootstrap
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
